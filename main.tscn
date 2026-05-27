@@ -1,0 +1,42 @@
+[gd_scene format=3 uid="uid://c6lbgddmt0epp"]
+
+[ext_resource type="Texture2D" uid="uid://1s0sa7i7ft4i" path="res://20190602_235301637_iOS.webp" id="1_0xm2m"]
+[ext_resource type="PackedScene" uid="uid://b8wsktjt5drd5" path="res://player.tscn" id="1_ig7tw"]
+[ext_resource type="Texture2D" uid="uid://pqcogy4b5iq3" path="res://download-removebg-preview.png" id="3_h2yge"]
+[ext_resource type="Texture2D" uid="uid://cw0xub7lnpi4g" path="res://download-removebg-preview (1).png" id="4_1bvp3"]
+[ext_resource type="Texture2D" uid="uid://c2gecwqpqqidg" path="res://images-removebg-preview.png" id="5_lquwl"]
+
+[node name="Main" type="Node2D" unique_id=246908198]
+
+[node name="Background" type="Sprite2D" parent="." unique_id=106934606]
+position = Vector2(575.74994, 325.99997)
+scale = Vector2(0.44785154, 0.44999993)
+texture = ExtResource("1_0xm2m")
+
+[node name="Player" parent="." unique_id=1165814146 instance=ExtResource("1_ig7tw")]
+position = Vector2(0, 23)
+
+[node name="Bird" type="Sprite2D" parent="." unique_id=1376440413]
+position = Vector2(1032, 148.00002)
+scale = Vector2(0.6640625, 0.428934)
+texture = ExtResource("3_h2yge")
+
+[node name="Sun" type="Sprite2D" parent="." unique_id=1962059278]
+position = Vector2(130, 125)
+scale = Vector2(0.7, 0.5133333)
+texture = ExtResource("4_1bvp3")
+
+[node name="Raincloud" type="Sprite2D" parent="." unique_id=1305179027]
+position = Vector2(599, 184)
+scale = Vector2(0.7612613, 0.561674)
+texture = ExtResource("5_lquwl")
+
+[node name="Label" type="Label" parent="." unique_id=2020647995]
+offset_left = 423.0
+offset_top = 28.0
+offset_right = 772.0
+offset_bottom = 262.0
+theme_override_colors/font_color = Color(0.7627242, 0.7714258, 0.13848531, 1)
+theme_override_font_sizes/font_size = 31
+text = "Pterodactyl and others"
+horizontal_alignment = 1

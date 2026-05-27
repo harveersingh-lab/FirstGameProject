@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://b8wsktjt5drd5"]
+
+[ext_resource type="Texture2D" uid="uid://dasnqrusmlh0q" path="res://Pterodactyl.png" id="1_4flbx"]
+
+[node name="Player" type="CharacterBody2D" unique_id=1165814146]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=217162515]
+position = Vector2(620, 385)
+scale = Vector2(1.9687495, 1.78125)
+texture = ExtResource("1_4flbx")
